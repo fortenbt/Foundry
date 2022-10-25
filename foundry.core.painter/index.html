@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>foundry.core.painter package &#8212; Foundry 0.4.14 documentation</title>
+    <title>foundry.core.painter package &#8212; Foundry 0.6.1 documentation</title>
     
   <link href="../_static/css/theme.css" rel="stylesheet">
   <link href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -36,7 +36,7 @@
     <link rel="shortcut icon" href="../_static/foundry_logo.ico"/>
     <link rel="index" title="Index" href="../genindex/" />
     <link rel="search" title="Search" href="../search/" />
-    <link rel="next" title="foundry.core.palette package" href="../foundry.core.palette/" />
+    <link rel="next" title="foundry.core.player_animations package" href="../foundry.core.player_animations/" />
     <link rel="prev" title="foundry.core.graphics_set package" href="../foundry.core.graphics_set/" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
@@ -161,6 +161,21 @@
     </label>
     <ul class="current">
      <li class="toctree-l3">
+      <a class="reference internal" href="../foundry.core.blocks/">
+       foundry.core.blocks package
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../foundry.core.drawable/">
+       foundry.core.drawable package
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../foundry.core.file/">
+       foundry.core.file package
+      </a>
+     </li>
+     <li class="toctree-l3">
       <a class="reference internal" href="../foundry.core.graphics_page/">
        foundry.core.graphics_page package
       </a>
@@ -176,28 +191,18 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../foundry.core.palette/">
-       foundry.core.palette package
-      </a>
-     </li>
-     <li class="toctree-l3">
       <a class="reference internal" href="../foundry.core.player_animations/">
        foundry.core.player_animations package
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../foundry.core.point/">
-       foundry.core.point package
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../foundry.core.size/">
-       foundry.core.size package
-      </a>
-     </li>
-     <li class="toctree-l3">
       <a class="reference internal" href="../foundry.core.sprites/">
        foundry.core.sprites package
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../foundry.core.tiles/">
+       foundry.core.tiles package
       </a>
      </li>
      <li class="toctree-l3">
@@ -345,7 +350,7 @@
 <span id="foundry-core-painter-painter-module"></span><h2>foundry.core.painter.Painter module<a class="headerlink" href="#module-foundry.core.painter.Painter" title="Permalink to this headline">¶</a></h2>
 <dl class="py class">
 <dt class="sig sig-object py" id="foundry.core.painter.Painter.Painter">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">Painter</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">image</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">PySide6.QtGui.QImage</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#foundry.core.painter.Painter.Painter" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">Painter</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">image</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">PySide6.QtGui.QImage</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">PySide6.QtWidgets.QWidget</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#foundry.core.painter.Painter.Painter" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference external" href="https://docs.python.org/dev/library/functions.html#object" title="(in Python v3.12)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
 <p>Creates a context manager for a QPainter to be applied on a QImage.</p>
 <p>If no context manger is provided for a QPainter, any error during its life-cycle could result in a crash.</p>
@@ -370,10 +375,10 @@
             <p class="prev-next-title">foundry.core.graphics_set package</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="../foundry.core.palette/" title="next page">
+    <a class='right-next' id="next-link" href="../foundry.core.player_animations/" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">foundry.core.palette package</p>
+        <p class="prev-next-title">foundry.core.player_animations package</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
@@ -391,7 +396,7 @@
     
     <div class="footer-item">
       <p class="copyright">
-    &copy; Copyright 2021, TheJoeSmo.<br>
+    &copy; Copyright 2022, TheJoeSmo.<br>
 </p>
     </div>
     
